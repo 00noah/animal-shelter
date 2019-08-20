@@ -1,8 +1,4 @@
-.column {
-  width: 18%;
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
+
 
 }
 
@@ -14,6 +10,8 @@
 .column p {
   height: 50%;
   text-align: center;
+  margin-top: auto;
+  margin-bottom: 10px;
 }
 
 .column img {
@@ -32,4 +30,43 @@
 body{
   text-align: center;
   background-color: #d1fff0;
+}
+
+#cat2 {
+  width: 222.47px;
+  height: 100%;
+  margin-bottom: 1px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+@media screen and (min-width: 1000px) {
+  .column {
+    padding: 20px;
+
+    width: 18%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+
+
+  }
+}
+
+@media screen and (max-width: 999px) and (min-width: 700px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  body {
+    background-color: white;
+    color: red;
+  }
 }
