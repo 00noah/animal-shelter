@@ -1,0 +1,35 @@
+.column {
+  width: 18%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.column h2 {
+  font-family: monospace, sans-serif;
+  text-align: center;
+}
+
+.column p {
+  height: 50%;
+  text-align: center;
+}
+
+.column img {
+  width: 222.47px;
+  height: 334.27px;
+  display: block;
+  margin: 0 auto;
+}
+
+.desc {
+  color: red;
+  font-size: 36px;
+
+}
+
+body{
+  text-align: center;
+  background-color: #d1fff0;
+}
